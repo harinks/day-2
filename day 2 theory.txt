@@ -1,0 +1,51 @@
+
+
+1.List 5 difference between Browser JS(console) v Nodejs
+
+JS(console)
+>Javascript is a programming language that is used for writing scripts on the website.
+>Javascript can only be run in the browsers.
+>It is basically used on the client-side.
+>Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox. 
+>Some of the javascript frameworks are ReactJS, AngularJS, etc. 
+
+Nodejs
+>NodeJS is a Javascript runtime environment.
+>We can run Javascript outside the browser with the help of NodeJS.
+>Nodejs is used in server-side development.
+>V8 is the Javascript engine inside of node.js that parses and runs Javascript. 
+>Some of the Nodejs modules are Lodash, express etc. These modules are to be imported from npm. 
+
+
+2.So how does the browser actually render a website?
+
+1. parsing-->DOM tree
+2. DOM tree-->render trees
+3. is consists of 4 trees
+4. layout computes where a node will be on the screen
+5. painting computes bitmaps and composites to screen.
+
+
+3. from this blog, they discuss is it necessary to write HEAD, BODY and HTML tag?
+>Omitting the html, head, body tags is allowed by the HTML specs and even google recommends to omitte all optional tag. the recommend way to HTML document and to display output
+<!DOCTYPE html>
+<title>Saving money, saving bytes</title>
+<p>Qed.
+
+
+4.Execute the below code and write your description in txt file
+
+typeof() shows the type of output which is number, string, object or boolean, etc.
+
+console.log(typeof(1)) output:number
+console.log(typeof(1.1))output: number
+console.log(typeof('1.1'))output: string
+console.log(typeof(true))output: boolean
+console.log(typeof(null))output: object
+console.log(typeof(undefined))output: undefined
+console.log(typeof([]))output: object
+console.log(typeof({}))output: object
+console.log(typeof(NaN))output: number ,A specific NaN is not considered equal to another NaN because they may be different values. However, NaN is still a number type
+
+
+5.Prototypes are the mechanism by which JavaScript objects inherit features from one another. 
